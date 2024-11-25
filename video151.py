@@ -64,5 +64,23 @@ img=cv2.imread('first.jpg',cv2.IMREAD_UNCHANGED)
 
 
 #Return
-img=cv2.imread('first.jpg',cv2.IMREAD_COLOR)
-print(img)
+# img=cv2.imread('first.jpg',cv2.IMREAD_COLOR)
+# print(img)
+# print(type(img))
+
+
+
+# print(cv2.imread('first.jpg'))
+# print('........................')
+# print(cv2.imread('first.jpg',1))
+
+
+
+# print(cv2.imread('first.jpg',1))
+# print('...............................')
+
+
+# print(cv2.imread('first.jpg',0))
+# print('...............................')
+
+# print(cv2.imread('first.jpg',-1))
