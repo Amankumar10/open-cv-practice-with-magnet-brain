@@ -84,3 +84,16 @@ img=cv2.imread('first.jpg',cv2.IMREAD_UNCHANGED)
 # print('...............................')
 
 # print(cv2.imread('first.jpg',-1))
+
+
+img=cv2.imread('first.jpg',1)
+print(img)
+print("..............................")
+# print(img[0])
+# print(len(img[0]))
+# print(img[1])
+
+# print(len(img[1]))
+
+print(img[:,0])
+print(len(img[:,0]))
