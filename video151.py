@@ -56,9 +56,9 @@ import cv2
 
 
 
-img=cv2.imread('first.jpg',cv2.IMREAD_COLOR)
-img=cv2.imread('first.jpg',cv2.IMREAD_GRAYSCALE)
-img=cv2.imread('first.jpg',cv2.IMREAD_UNCHANGED)
+# img=cv2.imread('first.jpg',cv2.IMREAD_COLOR)
+# img=cv2.imread('first.jpg',cv2.IMREAD_GRAYSCALE)
+# img=cv2.imread('first.jpg',cv2.IMREAD_UNCHANGED)
 
 
 
@@ -86,14 +86,36 @@ img=cv2.imread('first.jpg',cv2.IMREAD_UNCHANGED)
 # print(cv2.imread('first.jpg',-1))
 
 
-img=cv2.imread('first.jpg',1)
-print(img)
-print("..............................")
+# img=cv2.imread('first.jpg',1)
+# print(img)
+# print("..............................")
 # print(img[0])
 # print(len(img[0]))
 # print(img[1])
 
 # print(len(img[1]))
 
-print(img[:,0])
-print(len(img[:,0]))
+# print(img[:,0])
+# print(len(img[:,0]))
+
+
+# print(img[:,0])
+# print(len(img[:,1]))
+
+
+# print(img[:,:,0])
+# print(len(img[:,:,0]))
+
+
+img=cv2.imread('first.jpg',0)
+print(img)
+# print("..............................")
+# print(img[0])
+# print('..........................')
+# print(img[1])
+print('..........................')
+print(len(img[0]))
+
+# print('..........................')
+# print(img[:,0])
+# 1:23:28
