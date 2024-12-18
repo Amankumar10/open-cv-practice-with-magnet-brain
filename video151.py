@@ -90,12 +90,19 @@ import cv2
 # print(img)
 # print("..............................")
 # print(img[0])
+
+# This prints the first row of pixels in the image (index 0 along the height axis).
 # print(len(img[0]))
+# This prints the length of the first row, i.e., the number of pixels in the width of the image.
+
 # print(img[1])
+# This prints the second row of pixels in the image (index 1 along the height axis), just like img[0], but for the second row.
 
 # print(len(img[1]))
 
 # print(img[:,0])
+# This prints all the pixel values in the first column of the image (index 0 along the width axis)
+
 # print(len(img[:,0]))
 
 
@@ -118,4 +125,6 @@ print(len(img[0]))
 
 # print('..........................')
 # print(img[:,0])
-# 1:23:28
+
+
+
